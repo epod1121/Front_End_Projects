@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: darkslategray;
+}
+
+.num {
+    font-size: 150px;
+}
+
+#button {
+    font-size: 50px;
+    background-color: aliceblue;
+    color: black;
+    border-radius: 10px;
+}
