@@ -1,0 +1,108 @@
+:root {
+    --color-dark: #081035;
+    --color-light: #f1f5f9;
+    --color-slate: #7b7b7b;
+    --color-accent: #591288;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    padding: 0;
+    color: var(--color-light)
+}
+
+body {
+    background-color: var(--color-dark);
+}
+
+.intro {
+    width: 750px;
+}
+
+.introduction {
+    font-size: 20px;
+}
+
+.container {
+    width: 85%;
+}
+
+.box {
+    border: #591288 solid;
+    background-color: var(--color-slate);
+    width: 100px;
+    height: 100px;
+    margin: 0px;
+}
+
+.story{
+    margin-bottom: 150px;
+}
+
+.story .dance {
+    display: flex;
+}
+
+.dance-1 {
+    justify-content: center;
+}
+
+.dance-2 {
+    justify-content: space-around;
+}
+
+.dance-3 {
+    justify-content: space-between;
+}
+
+.dance-4 {
+    justify-content: right;
+}
+
+.dance-5 {
+    justify-content: left;
+}
+
+.dance-6 {
+    justify-content: space-evenly;
+}
+
+.dance-7 {
+    justify-content: center;
+}
+
+.subway {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.two-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.two-row-gap{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.home {
+    display: flex;
+    gap: 10px
+}
+
+.home .dog{
+    display: flex;
+    gap: 10px;
+    flex: 1;
+}
