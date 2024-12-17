@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body {
+    background-color: rgb(41, 40, 70);
+    text-align: center;
+}
+
+input, #go {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    border-radius: 10px;
+    border: none;
+    margin: 200px 0px;
+    margin-right: 10px;
+    background-color: rgb(230, 215, 250);
+    padding: 5px;
+}
+
+#go, .again {
+    transition: 0.5s;
+}
+
+#go:hover, .again:hover {
+    cursor: pointer;
+    background-color: rgb(184, 133, 249);
+    color: aliceblue;
+}
+
+#again {
+    cursor: pointer;
+    background-color: rgb(230, 215, 250);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    margin-top: 23px;
+}
+
+.canvas {
+    margin-bottom: -70px;
+}
+
+.hidden {
+    display: none;
+}
